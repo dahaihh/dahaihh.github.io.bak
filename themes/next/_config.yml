@@ -396,17 +396,12 @@ valine:
 # add gitalk
 gitalk:
   enable: true
+  githubID: dahaihh
+  repo: blog_comment
   ClientID: f9770bc0efcd60b50de2
   ClientSecret: 975f9913adaacc21b419fb2a9c49c4617d5cb87c
-  repo: blog_comment
-  owner: dahaihh
   adminUser: dahaihh
-  ID: location.pathname
-  labels: gitalk
-  perPage: 15
-  pagerDirection: last
-  createIssueManually: true
-  distractionFreeMode: false
+  distractionFreeMode: true
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
